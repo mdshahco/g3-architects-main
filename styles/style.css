@@ -1,0 +1,75 @@
+/* font styles added */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+  /* ---------------------------- */
+  /* ---------------------------- */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+  /* Header style started */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 240px;
+    padding-top: 50px;
+  }
+.site-logo h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #424242;
+  }
+  /* nav ended */
+/* header title started */
+.heading{
+    margin: 0px 240px 50px 240px;
+    text-align: center;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.header-discription{
+    color: #727272;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.explore-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.heading-bannar{
+    margin: 0px 240px;
+
+
+}
+.heading-bannar img{
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+/* header title ended */
+   /* Header style ended */

@@ -45,7 +45,7 @@ nav{
     font-size: 64px;
     text-align: center;
 }
-.header-discription{
+.header-description{
     color: #727272;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -116,8 +116,72 @@ nav{
     font-size: 45px;
     color: #FF900E;
 }
-.quick-discription{
+.quick-description{
     color: #727272;
     font-weight: 400;
     font-size: 16px;
+}
+/* quick section ended */
+/* love and enjoy section style started */
+.love-contain{
+    display: flex;
+    gap: 54px;
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.love-title-main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.love-title-line{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+.love-section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.love-text p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.love-text h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.love-box{
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    width: 50%px;
+    height: 50%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.love-photo img{
+    width: 100%;
+    height: 100%;
+}
+.experience-btn{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.exp-year{
+    font-weight: 700;
+    font-size: 65px;
 }

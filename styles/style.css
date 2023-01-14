@@ -73,3 +73,51 @@ nav{
 }
 /* header title ended */
    /* Header style ended */
+   main{
+    margin: 0px 240px;
+   }
+   section{
+    margin-top: 85px;
+   }
+   /* quick list section started */
+   /* .qucik-list-section{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    
+   } */
+.qucik-list-section img{
+    width: 100%;
+    height: 100%;
+}
+   .qucik-list-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 75px;
+    align-items: center;
+    
+   }
+   .team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+   }
+.quick-list-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.quick-list{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.features{
+    font-size: 45px;
+    color: #FF900E;
+}
+.quick-discription{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}

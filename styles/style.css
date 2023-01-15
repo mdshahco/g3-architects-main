@@ -288,7 +288,9 @@ nav{
 }
 /* footer section ended */
 
-/* media quary started */
+/* ============================================== */
+/*================responsive design ================*/
+/* ================================================ */
 @media screen and (max-width:576px){
     nav{
         flex-direction: column;
@@ -359,6 +361,7 @@ nav{
     }
 
 }
+/* media device responsive style */
 @media screen and (min-width:577px) and (max-width:992px){
     nav{
         justify-content: space-around;
@@ -399,9 +402,10 @@ nav{
     }
     .sponspors{
         flex-direction: column;
+        gap: 100px;
     }
     .footer{
-        margin: 30px 15px 0px 15px;
+        margin: 30px 30px 0px 30px;
         padding: 10px;
     }
     .footer p{

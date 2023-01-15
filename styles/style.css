@@ -245,10 +245,30 @@ nav{
     filter: grayscale(100%);
 }
 /* sponspors section style ended */
+/* contact section started */
+.contact-sections{
+    background: rgba(137, 133, 128, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+}
+.contact-section button{
+    padding: 10px 30px;
+}
+.contact-form input, textarea{
+    width: 100%;
+}
+.contact-form input{
+    height: 20px;
+}
+/* contact section ended */
 /* footer section started */
 .footer{
     background-color: #FFF4E7;
-    margin: 130px 240px 216px 240px;
+    margin: 0px 240px 216px 240px;
 }
 .footer p{
     font-weight: 400;

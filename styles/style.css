@@ -7,6 +7,19 @@ body{
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+/* common styles started */
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+/* common styles ended */
   /* Header style started */
 .header{
     background: rgba(255, 144, 14, 0.1);
@@ -117,11 +130,6 @@ nav{
     font-size: 45px;
     color: #FF900E;
 }
-.quick-description{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-}
 /* quick section ended */
 /* love and enjoy section style started */
 .love-contain{
@@ -142,11 +150,6 @@ nav{
     width: 5px;
     height: 106px;
     background: #FF900E;
-}
-.love-section-title{
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
 }
 .love-text p{
     font-weight: 400;
@@ -187,17 +190,6 @@ nav{
     font-size: 65px;
 }
 /* some facts styles */
-.some-facts-title{
-    font-weight: 700;
-    font-size: 45px;
-    color: #131313;
-}
-.some-facts-description{
-    font-weight: 400;
-    font-size: 16px;
-    color: #727272;
-    margin-top: 24px;
-}
 .some-boxes{
     margin: 100px 50px;
     display: flex;
@@ -231,3 +223,17 @@ nav{
 
 /* some facts section styles ended */
 /* sponspors section styles started */
+.our-sponspors{
+    text-align: center;
+}
+.sponspors{
+    display: flex;
+    gap: ;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+.sponspors img{
+    filter: grayscale(100%);
+}
+/* sponspors section style ended */

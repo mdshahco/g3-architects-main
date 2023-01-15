@@ -5,6 +5,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
   /* Header style started */
 .header{
@@ -185,3 +186,48 @@ nav{
     font-weight: 700;
     font-size: 65px;
 }
+/* some facts styles */
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.some-facts-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.some-boxes{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.some-box{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    padding: 50px 35px;
+}
+.some-box img{
+    margin: 0px;
+}
+.some-box h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.some-box p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0px;
+}
+
+/* some facts section styles ended */
+/* sponspors section styles started */

@@ -7,6 +7,12 @@ body{
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+    main{
+    margin: 0px 240px;
+   }
+   section{
+    margin-top: 85px;
+   }
 /* common styles started */
 .section-title{
     font-weight: 700;
@@ -25,6 +31,7 @@ body{
     background: rgba(255, 144, 14, 0.1);
 
 }
+/* nav style started */
 nav{
     display: flex;
     justify-content: space-between;
@@ -50,7 +57,7 @@ nav{
     text-decoration: none;
     color: #424242;
   }
-  /* nav ended */
+  /* nav  style ended */
 /* header title started */
 .heading{
     margin: 0px 240px 50px 240px;
@@ -89,17 +96,12 @@ nav{
 }
 /* header title ended */
    /* Header style ended */
-   main{
-    margin: 0px 240px;
-   }
-   section{
-    margin-top: 85px;
-   }
+
    /* quick list section started */
 
 .qucik-list-section img{
-    width: 342px;
-    height: 342px;
+    width: 100%;
+    height: 100%;
 }
    .qucik-list-section{
     display: grid;
@@ -191,6 +193,8 @@ nav{
     font-weight: 700;
     font-size: 65px;
 }
+/* love and enjoy section style ended */
+
 /* some facts styles */
 .some-boxes{
     margin: 100px 0px;
@@ -230,13 +234,13 @@ nav{
     }
 
 /* some facts section styles ended */
+
 /* sponspors section styles started */
 .our-sponspors{
     text-align: center;
 }
 .sponspors{
     display: flex;
-    gap: 155px;
     justify-content: space-between;
     margin-bottom: 130px;
     margin-top: 50px;
@@ -245,6 +249,7 @@ nav{
     filter: grayscale(100%);
 }
 /* sponspors section style ended */
+
 /* contact section started */
 .contact-sections{
     background: rgba(137, 133, 128, 0.1);
@@ -282,9 +287,7 @@ nav{
     color: #424242;
 }
 /* footer section ended */
-.hide{
-    display: none;
-}
+
 /* media quary started */
 @media screen and (max-width:576px){
     nav{
@@ -301,11 +304,11 @@ nav{
     .heading{
         margin: 20px 30px;
     }
-    /* --------------------- */
+    /* =================================*/
     main{
         margin: 0px 15px;
     }
-    /* ---------------------- */
+    /* ================================ */
     .qucik-list-section{
         grid-template-columns: 1fr;
         gap: 10px;
@@ -396,20 +399,5 @@ nav{
     }
     .sponspors{
         flex-direction: column;
-    }
-}
-@media screen and (min-width:993px) and (max-width:1400px){
-    .love-container{
-        gap: 20px;
-    }
-    .experience-btn{
-        left: 0%;
-        bottom: 0px;
-        margin: 20px 200px;
-    }
-    .some-box{
-        height: 190px;
-        width: 190px;
-        padding: 10px;
     }
 }
